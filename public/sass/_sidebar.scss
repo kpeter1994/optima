@@ -1,0 +1,20 @@
+.sidebar{
+    .nav-link{
+        &:hover{
+            background:  #1d2e57;
+        }
+    }
+
+    .active{
+            color: $dark !important;
+    }
+}
+.offcanvas{
+    z-index: 4000 !important;
+}
+
+.mobil-search-container{
+    @include lg{
+        display: none;
+    }
+}

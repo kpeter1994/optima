@@ -1,0 +1,17 @@
+$prefix: "bs" !default;
+
+:root {
+  @each $size, $weight in $display-font-weights {
+    .display-#{$size} {
+      font-weight: $weight;
+    }
+  }
+
+  @each $color, $shadow in $btn-box-shadow-hover {
+      .btn-#{$color}{
+        &:hover{
+          box-shadow: $shadow;
+        }
+      }
+  }
+}

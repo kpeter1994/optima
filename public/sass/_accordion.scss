@@ -1,0 +1,17 @@
+$accordion-bg: transparent;
+$accordion-padding-y:                     1.2rem;
+$accordion-border-color:   #4C4F56;
+$accordion-color:   white;
+$accordion-button-active-bg: $accordion-bg;
+$accordion-button-active-color: $light ;
+$accordion-button-focus-border-color:     $accordion-border-color;
+$accordion-button-focus-box-shadow:       $accordion-border-color;
+$accordion-border-radius: 0;
+
+.accordion-item{
+    border-top: 1px solid $accordion-button-active-color;
+    border-bottom: 1px solid $accordion-button-active-color;
+    border-right: none !important;
+    border-left: none !important;
+
+}
