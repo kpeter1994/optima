@@ -48,6 +48,10 @@ Route::get('/member', [HomeController::class, 'index'])->name('member');
 
 Route::get('/programs',[HomeController::class,'ProgramsController'])->name('programs');
 
+Route::get('/program',[HomeController::class,'ProgramController'])->name('program');
+
+Route::get('/program-f',[HomeController::class,'ProgramDashController'])->name('program-f');
+
 Route::get('/search', [SearchController::class, 'search'])->name('search');
 
 Route::get('/eloadsok',[HomeController::class,'PresentationsController'])->name('eloadsok');

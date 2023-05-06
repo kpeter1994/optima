@@ -13,7 +13,7 @@
             <a class="nav-link" href="">Előadások</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Útmutatók</a>
+            <a class="nav-link" href="/utmutatok">Útmutatók</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="">Tudásbázis</a>

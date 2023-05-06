@@ -33,8 +33,9 @@
 body {
     position: relative;
     transition: .3s;
-
 }
+
+
 
 .bg-fixed-image {
     background-image: url("../img/main-page-bgc.webp");
@@ -414,6 +415,7 @@ $offcanvas-transition-duration: 3s;
 }
 
 
+
 footer {
     position: relative;
     z-index: 2000;
@@ -432,3 +434,27 @@ footer {
     margin: 2rem 0;
 }
 
+.program-cover{
+    border-radius: 1rem;
+    img{
+        max-height: 400px;
+    }
+}
+.f-program-cover{
+    background: radial-gradient(50% 50% at 50% 50%, #0A2D42 0%, #141821 100%);
+}
+
+.text-light-color{
+    color: rgb(148 163 184);
+}
+
+
+.calendar-icon{
+    background: #0987ca;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}

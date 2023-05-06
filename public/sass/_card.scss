@@ -281,10 +281,10 @@ $card-border-radius: 1rem;
     span:nth-of-type(1){
         transition: .2s;
         font-weight: 900;
-        font-size: 36px;
+        font-size: 26px;
     }
     small{
-        font-size: 26px;
+        font-size: 20px;
     }
 }
 
@@ -528,4 +528,19 @@ $card-border-radius: 1rem;
 
     }
 }
+.accordion-body{
+    a{
 
+    }
+}
+
+.modal{
+    z-index: 10000;
+
+    .col-4, .d-flex{
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 1rem;
+        }
+    }
+}

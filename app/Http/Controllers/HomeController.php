@@ -33,6 +33,17 @@ class HomeController extends Controller
         $videos = Video::all();
         return view('members.programs', ['videos' => $videos]);
     }
+    public function ProgramController(){
+
+        $videos = Video::all();
+        return view('members.program', compact('videos'));
+    }
+
+    public function ProgramDashController(){
+
+        $videos = Video::all();
+        return view('members.program-f', compact('videos'));
+    }
 
     public function PresentationsController()
     {   $videos = Video::paginate(20);
@@ -47,7 +58,7 @@ class HomeController extends Controller
     public function GuideController(){
 
         $videos = Video::all();
-        return view('members.programs', ['videos' => $videos]);
+        return view('members.utmutatok', ['videos' => $videos]);
 
     }
 

@@ -70,7 +70,7 @@
             </a>
         </li>
         <li>
-            <a href="#" class="nav-link text-white">
+            <a href="/utmutatok" class="nav-link text-white {{ request()->is('utmutatok') ? 'active' : '' }}">
                 <i class="fa-solid fa-compass me-2"></i>
                 Útmutatók
             </a>

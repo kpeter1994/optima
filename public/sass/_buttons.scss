@@ -130,3 +130,134 @@ button{
     color: $dark;
 }
 
+
+.btn-continue-teszt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: $btn-border-radius;
+    padding:  $btn-padding-y $btn-padding-x;
+    border: 1px solid $primary;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    &:hover{
+        color: $light;
+    }
+
+    &:before{
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 50%;
+        background: $primary;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+}
+
+%btn-program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: $btn-border-radius;
+    padding:  $btn-padding-y $btn-padding-x;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+
+    &:hover{
+        color: $light;
+    }
+
+    &:before{
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: -15px;
+        height: 200%;
+        width:  calc(33% - 5px);
+        background: #0987CA;
+        z-index: -1;
+        pointer-events: none;
+        filter: blur(10px);
+    }
+
+
+}
+
+.btn-continue{
+    @extend %btn-program;
+}
+
+.btn-continue-x{
+    @extend %btn-program;
+    color: $light;
+    &:before{
+        background: white;
+        width:  var(--after-bg-0);
+    }
+    &:hover{
+        background: rgba(255, 255, 255, 30%);
+        color: $dark;
+    }
+}
+.btn-continue-f{
+   @extend %btn-program;
+
+    &:before{
+        width:  var(--after-bg-1);
+    }
+    &:hover{
+        background: rgba(8, 134, 201, 0.3);
+        color: white;
+    }
+
+}
+
+.btn-continue-o{
+    @extend %btn-program;
+
+    &:before{
+        background: $primary;
+        width:  var(--after-bg-2);
+    }
+    &:hover{
+        background: rgba(35, 219, 121, 0.3);
+        color: white;
+    }
+
+}
+
+.btn-continue-v{
+    @extend %btn-program;
+
+    &:hover{
+        background: rgba(255, 55, 0, 0.3);
+        color: white;
+    }
+
+    &:before{
+        background: #FF3900;
+        width:  var(--after-bg-3);
+    }
+
+}
+
+

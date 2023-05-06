@@ -10,7 +10,7 @@
                     <a class="category-btn" href="">Segítő Előadások</a>
                 </div>
 
-                    <div class="row mt-5 video-list">
+                    <div class="row m-0 pt-5 video-list px-3">
                         <h1 class="text-white fw-bolder display-5">Eredeti előadások</h1>
                         <p>52 előadás a felépüés zónáiról és eszközeiről...</p>
                         @foreach($videos as $video)
