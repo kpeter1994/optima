@@ -39,8 +39,13 @@ Route::get('/rolunk', function () {
     return view('pages.about');
 });
 
+Route::get('/task', function () {
+    return view('members.task');
+});
 
-
+Route::get('/naplo', function () {
+    return view('members.naplo');
+});
 
 Auth::routes();
 

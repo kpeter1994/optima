@@ -17,21 +17,21 @@
                             </div>
                             <div class="p-2">
                                 <p class="p-2 lead">Terjedelmesebb olvasmányok</p>
-                                <a class="btn-program btn-continue-x" href="/program" data-progress="100"><i class="fa-solid fa-rotate-right me-3"></i>Újrakezdemt</a>
+                                <a class="btn-program btn-continue" href="/program" data-progress="100">Tovább</a>
 
                             </div>
                         </div>
 
                     </div>
                     <div class="col-md-6 col-xxl-4 mb-3">
-                        <div class="f-program-cover rounded rounded-3">
+                        <div class="bg-dark rounded rounded-3">
                             <h2 class="p-2 m-0 fw-bold display-6 text-center">Feladatlapok</h2>
                             <div>
                                 <img class="img-fluid" src="https://optimatagsag.hu/images/uploads/Képernyőfotó 2021-02-19 - du. 11.15.43.png" alt="">
                             </div>
                             <div class="p-2">
                                 <p class="p-2 lead">Önállóan elvégezhető gyakorlatok</p>
-                                <a class="btn-program btn-continue-f" href="/program" data-progress="68"><i class="fa-solid fa-play me-3"></i>Folytatom</a>
+                                <a class="btn-program btn-continue" href="/program" data-progress="100">Tovább</a>
                             </div>
 
                         </div>
@@ -45,7 +45,7 @@
                             </div>
                             <div class="p-2">
                                 <p class="p-2 lead">Motivációs üzenetek</p>
-                                <a class="btn-program btn-continue" href="/program" data-progress="0"><i class="fa-solid fa-flag-checkered me-3"></i>Elkezdem a programot</a>
+                                <a class="btn-program btn-continue" href="/program" data-progress="100">Tovább</a>
                             </div>
 
                         </div>

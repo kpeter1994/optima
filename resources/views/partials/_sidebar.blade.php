@@ -82,7 +82,7 @@
             </a>
         </li>
         <li>
-            <a href="#" class="nav-link text-white">
+            <a href="/naplo" class="nav-link text-white">
                 <i class="fa-solid fa-book me-2"></i>
                 Naptár
             </a>

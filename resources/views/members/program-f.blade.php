@@ -24,15 +24,17 @@
 
                     </div>
                     <div class="col-lg-4 col-xl-6 d-flex justify-content-center order-0 order-lg-1 ">
-                        <div class="mt-3 d-flex flex-column gap-2">
+                        <div class="mt-3 d-flex flex-lg-column gap-2 flex-wrap p-2">
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <button class="btn btn-info btn-sm"><i class="fa-solid fa-circle-info me-2"></i>Program ismertető</button>
+                            <button class="btn btn-secondary btn-sm">Program Napló</button>
+                            <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Hangulatmonitor
                             </button>
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                            <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                 Sóvárgásmonitor
                             </button>
-                            <a class="btn btn-secondary" href="">Józanságmonítor</a>
+                            <a class="btn btn-secondary btn-sm" href="">Józanságmonítor</a>
                         </div>
                     </div>
 
@@ -91,8 +93,9 @@
                             <div class="col-xxl-10 offset-xxl-1  row p-4 rounded-3 ">
                                 <h2 class="fs-4 fw-bold mb-3">Program tartalma</h2>
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
-                                    <div class="my-3">
+                                    <div class="my-3 d-flex justify-content-between">
                                         <span class="bg-secondary text-white p-2 rounded rounded-1 me-2"><i class="fa-solid fa-calendar-days me-2"></i>1. hónap </span>
+                                        <button class="btn btn-info p-2"><i class="fa-solid fa-circle-info me-2"></i>Hónap ismertető</button>
                                     </div>
 
                                     <div class="accordion-item">
@@ -152,27 +155,27 @@
                                                     Videó: Heti ismertető
 
                                                 </a>
-                                                <a class="btn btn-outline-success mb-2 " href="">
+                                                <a class="btn btn-outline-success mb-2 " href="/task">
                                                     <i class="fa-solid fa-list-check me-3"></i>
                                                     1. Feladat: A függőség jellemzőinek megismerése
 
                                                 </a>
-                                                <a class="btn btn-outline-success mb-2 " href="">
+                                                <a class="btn btn-outline-success mb-2 " href="/task">
                                                     <i class="fa-solid fa-list-check me-3"></i>
                                                     2. Feladat: A függőség jellemzőinek megismerése
 
                                                 </a>
-                                                <a class="btn btn-outline-info mb-2 " href="">
+                                                <a class="btn btn-outline-info mb-2 " href="/task">
                                                     <i class="fa-solid fa-list-check me-3"></i>
                                                     3. Feladat: A függőség jellemzőinek megismerése
 
                                                 </a>
-                                                <a class="btn btn-outline-info opacity-50 mb-2" href="">
+                                                <a class="btn btn-outline-info opacity-50 mb-2" href="/task">
                                                     <i class="fa-solid fa-list-check me-3"></i>
                                                     4. Feladat: A függőség jellemzőinek megismerése
 
                                                 </a>
-                                                <a class="btn btn-outline-info opacity-50 mb-2" href="">
+                                                <a class="btn btn-outline-info opacity-50 mb-2" href="/task">
                                                     <i class="fa-solid fa-list-check me-3"></i>
                                                     4. Feladat: VISSZATEKINTÉS
 

@@ -198,6 +198,14 @@ button {
   filter: blur(10px);
 }
 
+.btn-continue:before {
+  width: 0;
+}
+.btn-continue:hover {
+  background: #23DC78;
+  color: #141821;
+}
+
 .btn-continue-x {
   color: #96b2fa;
 }
@@ -289,8 +297,8 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  -webkit-transition: "color 500ms ease-out, background-color 500ms ease-out";
-  transition: "color 500ms ease-out, background-color 500ms ease-out";
+  -webkit-transition: color 500ms ease-out, background-color 500ms ease-out;
+  transition: color 500ms ease-out, background-color 500ms ease-out;
   -webkit-text-fill-color: #ffffff; /* A szöveg színe */
   -webkit-box-shadow: 0 0 0 1000px #1E293B inset; /* A háttérszín */
 }
@@ -387,6 +395,45 @@ input:focus {
   display: block;
   text-decoration: none;
   font-size: 14px;
+}
+
+.task-check label {
+  cursor: pointer;
+  width: 100%;
+}
+.task-check label input[type=checkbox] {
+  display: none;
+}
+.task-check label input[type=checkbox]:checked ~ span {
+  background: #23DC78;
+  color: #141821;
+}
+.task-check label span {
+  position: relative;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 50px;
+  width: 100%;
+  transition: 0.2s;
+  user-select: none;
+  overflow: hidden;
+  font-weight: 700;
+}
+@media (min-width: 992px) {
+  .task-check label span {
+    padding: 1rem 2rem;
+  }
+}
+.task-check label span:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .sidebar .nav-link:hover {
@@ -11361,10 +11408,6 @@ textarea.form-control-lg {
     transform: scale(1);
   }
 }
-.bs-none {
-  box-shadow: none;
-}
-
 .card {
   background: #1E293B;
   border-radius: 1rem;
@@ -11382,6 +11425,10 @@ textarea.form-control-lg {
 .card img:hover {
   transition: 0.2s ease-in;
   transform: scale(1.05);
+}
+
+.bs-none {
+  box-shadow: none;
 }
 
 .card-title {

@@ -24,9 +24,7 @@ $card-border-radius: 1rem;
     }
 }
 
-.bs-none{
-    box-shadow: none;
-}
+
 
 .card{
   background: #1E293B;
@@ -46,6 +44,9 @@ $card-border-radius: 1rem;
       transform: scale(1.05);
     }
   }
+}
+.bs-none{
+    box-shadow: none;
 }
 .card-title{
     transition: .2s;

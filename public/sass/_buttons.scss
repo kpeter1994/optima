@@ -204,6 +204,14 @@ button{
 
 .btn-continue{
     @extend %btn-program;
+
+    &:before{
+        width: 0;
+    }
+    &:hover{
+        background: $primary;
+        color: $dark;
+    }
 }
 
 .btn-continue-x{
