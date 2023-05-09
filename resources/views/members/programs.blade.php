@@ -5,8 +5,9 @@
         @include('partials._sidebar')
 
             <div class="container">
+                <div class="space-filler"></div>
                 <div class="row p-lg-5">
-                    <div class="pt-5">
+                    <div>
                         <h1 class="fs-4 fw-bold mb-3">Optima Programok</h1>
                     </div>
                     <div class="col-md-6 col-xxl-3 mb-3 ">

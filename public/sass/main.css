@@ -117,15 +117,22 @@ button {
 }
 
 .category-btn {
-  padding: 0.7rem 1rem;
+  padding: 0.35rem 0.5rem;
   color: #FFFFFF;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 80px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 2px;
+}
+@media (min-width: 992px) {
+  .category-btn {
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 0.7rem 1rem;
+  }
 }
 
 .active-category {
@@ -11943,6 +11950,10 @@ body {
 }
 .bg-dark .logo-fill {
   fill: white;
+}
+
+.space-filler {
+  height: 73px;
 }
 
 .bg-cta {

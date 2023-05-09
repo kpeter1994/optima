@@ -4,13 +4,14 @@
     <main id="main d-flex">
         @include('partials._sidebar')
         <section id="trailers" class="">
+            <div class="space-filler"></div>
             <div class="container-90 p-lg-3">
-                <div class="pt-6">
+                <div class="pt-lg-6 d-flex justify-content-center gap-1 justify-content-lg-start">
                     <a class="category-btn active-category" href="">Eredeti Előadások</a>
                     <a class="category-btn" href="">Segítő Előadások</a>
                 </div>
 
-                    <div class="row m-0 pt-5 video-list px-3">
+                    <div class="row m-0 pt-3 pt-lg-5 video-list px-3">
                         <h1 class="text-white fw-bolder display-5">Eredeti előadások</h1>
                         <p>52 előadás a felépüés zónáiról és eszközeiről...</p>
                         @foreach($videos as $video)
@@ -72,101 +73,7 @@
         });
     </script>
     <script>
-        let offcanvas = document.getElementById('offcanvasScrolling')
-        let main = document.getElementsByTagName('main')[0]
-        let toggle = document.querySelector(".open-sidebar")
-        let insideHeader = document.querySelector('.inside-header')
 
-        if (localStorage.getItem('isOpen') === 'true') {
-            main.classList.add('main-ms-280');
-            offcanvas.classList.add('show');
-            insideHeader.classList.add('header-w-not-full')
-        } else {
-            main.classList.remove('main-ms-280');
-            offcanvas.classList.remove('show');
-            insideHeader.classList.add('header-w-full')
-        }
-
-        toggle.addEventListener('click', function () {
-            main.classList.add('main-animation');
-            main.classList.toggle('main-ms-280');
-            offcanvas.classList.toggle('show');
-            insideHeader.classList.toggle('header-w-not-full')
-            insideHeader.classList.toggle('header-w-full')
-            localStorage.setItem('isOpen', offcanvas.classList.contains('show'));
-        });
-
-        let soberDays = document.querySelector('.sober-days')
-        soberDays = parseInt(soberDays.textContent)
-        const root = document.documentElement;
-
-        function addAvatarColor (soberDays){
-            let red = 0
-            let green = 100
-            let blue = 255
-            if (soberDays < 155){
-                green = green + soberDays
-            }else if (soberDays > 155 && soberDays < 410 ){
-                green = 255
-                blue = blue - (soberDays - 155)
-            }else if(soberDays > 410){
-                green = 255
-                blue = 0
-            }
-
-
-            let avatarColor = `rgb(${red},${green},${blue})`
-
-            return avatarColor
-        }
-
-        console.log(soberDays)
-        root.style.setProperty('--avatar-color',addAvatarColor(soberDays))
-
-        document.addEventListener('DOMContentLoaded', function() {
-            var inputs = document.querySelectorAll('input[name="query"]');
-            inputs.forEach((input) => {
-                if (input.style.display !== 'none') { // Az eseménykezelő csak akkor hajtódik végre, ha az elem display tulajdonsága nem 'none'
-                    input.addEventListener('blur', function() { // Az input esemény helyett a blur eseményre kell figyelni
-                        var results = document.querySelectorAll('.results');
-                        results.forEach((result) => {
-                            if (result.style.display !== 'none') { // Az eredmények csak akkor jelennek meg, ha az elem display tulajdonsága nem 'none'
-                                result.innerHTML = ''; // A találatok törlése az eredmények tartalmából
-                            }
-                        })
-
-                    });
-
-                    input.addEventListener('input', function() {
-                        var query = input.value;
-                        if (query.length >= 2) {
-                            var xhr = new XMLHttpRequest();
-                            xhr.open('GET', '/search?query=' + query);
-                            xhr.onload = function() {
-                                if (xhr.status === 200) {
-                                    var data = JSON.parse(xhr.responseText);
-                                    var results = document.querySelectorAll('.results');
-                                    results.forEach((result) => {
-                                        if (result.style.display !== 'none') { // Az eredmények csak akkor jelennek meg, ha az elem display tulajdonsága nem 'none'
-                                            result.innerHTML = '';
-                                            data.forEach(function(video) {
-                                                var a = document.createElement('a');
-                                                a.textContent = video.title;
-                                                a.href = video.link;
-                                                a.classList.add('list-group-item')
-                                                result.appendChild(a);
-                                            });
-                                        }
-                                    })
-
-                                }
-                            };
-                            xhr.send();
-                        }
-                    });
-                }
-            });
-        });
 
 
 
