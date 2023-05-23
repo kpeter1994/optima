@@ -38,6 +38,9 @@ Route::get('/order-end', function () {
 Route::get('/rolunk', function () {
     return view('pages.about');
 });
+Route::get('/csapatunk', function () {
+    return view('pages.team');
+});
 
 Route::get('/task', function () {
     return view('members.task');

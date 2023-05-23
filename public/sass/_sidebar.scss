@@ -3,6 +3,13 @@
         &:hover{
             background:  #1d2e57;
         }
+
+      .icon-container{
+          width: 18px;
+          height: 18px;
+          display: inline-block;
+          margin-right: 8px;
+      }
     }
 
     .active{
@@ -18,3 +25,4 @@
         display: none;
     }
 }
+

@@ -53,7 +53,9 @@
     <ul class="nav nav-pills flex-column mb-auto">
         <li class="nav-item">
             <a href="{{ route('member') }}" class="nav-link text-white {{ request()->is('member') ? 'active' : '' }}" aria-current="page">
-                <i class="fa-solid fa-house me-2"></i>
+                <span class="icon-container">
+                    <i class="fa-solid fa-house me-2"></i>
+                </span>
                 Főoldal
             </a>
         </li>
@@ -65,49 +67,51 @@
         </li>
         <li>
             <a href="{{ route('eloadsok') }}" class="nav-link text-white {{ request()->is('eloadsok') ? 'active' : '' }}">
-                <i class="fa-solid fa-ticket me-2"></i>
+                <span class="icon-container">
+                    <i class="fa-solid fa-ticket me-2"></i>
+                </span>
                 Előadások
             </a>
         </li>
         <li>
             <a href="/utmutatok" class="nav-link text-white {{ request()->is('utmutatok') ? 'active' : '' }}">
-                <i class="fa-solid fa-compass me-2"></i>
+                <span class="icon-container"><i class="fa-solid fa-compass me-2"></i></span>
                 Útmutatók
             </a>
         </li>
         <li>
             <a href="#" class="nav-link text-white">
-                <i class="fa-solid fa-book-open me-2"></i>
+                <span class="icon-container"><i class="fa-solid fa-book-open me-2"></i></span>
                 Tudástár
             </a>
         </li>
         <li>
             <a href="/naplo" class="nav-link text-white">
-                <i class="fa-solid fa-book me-2"></i>
+                <span class="icon-container"><i class="fa-solid fa-book me-2"></i></span>
                 Naptár
             </a>
         </li>
         <li>
             <a href="#" class="nav-link text-white">
-                <i class="fa-solid fa-list-check me-2"></i>
+                <span class="icon-container"><i class="fa-solid fa-list-check me-2"></i></span>
                 Teszt
             </a>
         </li>
         <li>
             <a href="#" class="nav-link text-white">
-                <i class="fa-brands fa-facebook me-2"></i>
+                <span class="icon-container"><i class="fa-brands fa-facebook me-2"></i></span>
                 Csoport
             </a>
         </li>
         <li>
             <a href="#" class="nav-link text-white">
-                <i class="fa-solid fa-star me-2"></i>
+                <span class="icon-container"><i class="fa-solid fa-star me-2"></i></span>
                 Bonusz
             </a>
         </li>
         <li>
             <a href="#" class="nav-link text-white">
-                <i class="fa-solid fa-newspaper me-2"></i>
+                <span class="icon-container"><i class="fa-solid fa-newspaper me-2"></i></span>
                 Blog
             </a>
         </li>

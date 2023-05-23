@@ -116,7 +116,10 @@
                         <a href="/rolunk" class="btn btn-outline-primary">Tudj meg többet</a>
                     </div>
                 </div>
-                <img class="col-lg-6 img-fluid p-2 p-lg-5" src="img/hogyan-segit.png" alt="">
+                <div class="col-lg-6 p-2 p-lg-5 d-flex justify-content-center align-items-center">
+                    <img class="img-fluid " src="img/laptop.png" alt="">
+                </div>
+
             </div>
 
         </div>
