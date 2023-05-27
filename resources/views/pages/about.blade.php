@@ -24,7 +24,7 @@
                         <button type="button" class="btn-close bg-white rounded-pill" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <div class="row">
+                        <div class="row m-0">
                             <div class="col-lg-8 p-3">
                                 <p>Dénes több mint 20 éve foglalkozik szenvedélybetegekkel, és emberek százainak segített már talpra
                                     állni a függőségből. Nem csupán könyvekből tanulta a segítő szakmát: saját súlyos drog- és
@@ -49,9 +49,9 @@
     </section>
     <section class="bg-dark">
         <div class="container p-2 p-lg-5">
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-lg-6 p-lg-5 text-center text-lg-start fs-5">
-                    <h2 class="display-2">Optima Programok</h2>
+                    <h2 class="display-2 mt-3">Optima Programok</h2>
                     <p>Az Programok menüben olyan interaktív önsegítő programokat találsz, amelyek a változáshoz szükséges különféle készségek fejlesztését segítik.</p>
                     <p>A saját felületeden használható programok főbb elemei:</p>
                     <ul class="text-start">
@@ -67,7 +67,7 @@
                     <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-1">Tudj meg többet az OPTIMA Rendszerről</button>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center align-items-center p-5">
-                    <img class="img-fluid" src="{{asset('/img/about/programok.png')}}" alt="programok">
+                    <img class="read-more-img" src="{{asset('/img/about/programok.png')}}" alt="programok">
                 </div>
             </div>
 
@@ -80,7 +80,7 @@
                         <button type="button" class="btn-close bg-white rounded-pill" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <div class="row">
+                        <div class="row m-0">
                             <div class="col-lg-7 p-3">
                                 <p>Az <b>OPTIMA</b> Rendszer egyrészt segít meghatározni, hogy hol tartasz a szenvedélybetegségből való
                                     felépülésben, másrészt segít alkalmazni az optimális életvitel kialakítását és fenntartását
@@ -109,9 +109,9 @@
     </section>
     <section class="">
         <div class="container p-2 p-lg-5">
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-lg-6 d-flex justify-content-center align-items-center p-5 text-center">
-                    <img class="img-fluid" src="{{asset('/img/about/eloadasok.png')}}" alt="előadások">
+                    <img class="read-more-img" src="{{asset('/img/about/eloadasok.png')}}" alt="előadások">
                 </div>
                 <div class="col-lg-6  p-lg-5 text-center text-lg-start fs-5">
                     <h2 class="display-2">Előadások</h2>
@@ -126,7 +126,7 @@
     </section>
     <section class="bg-dark">
         <div class="container p-2 p-lg-5">
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-lg-6  p-lg-5 text-center text-lg-start fs-5">
                     <h2 class="display-2">Útmutatók</h2>
                     <p>Az Útmutatók menüpontra kattintva, útmutatást kaphatsz, gyakorolhatsz és motivációra találhatsz:</p>
@@ -137,7 +137,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center align-items-center p-5 text-center">
-                    <img class="img-fluid" src="{{asset('/img/about/utmutatok.png')}}" alt="előadások">
+                    <img class="read-more-img" src="{{asset('/img/about/utmutatok.png')}}" alt="utmutatók">
                 </div>
 
             </div>
@@ -147,9 +147,9 @@
 
     <section class="">
         <div class="container p-2 p-lg-5">
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-lg-6 d-flex justify-content-center align-items-center p-5 text-center">
-                    <img class="img-fluid" src="{{asset('/img/about/tudasbazis.png')}}" alt="Tudásbázis">
+                    <img class="read-more-img" src="{{asset('/img/about/tudasbazis.png')}}" alt="Tudásbázis">
                 </div>
                 <div class="col-lg-6  p-lg-5 text-center text-lg-start fs-5">
                     <h2 class="display-2">Tudásbázis</h2>
@@ -168,7 +168,7 @@
 
     <section class="bg-dark">
         <div class="container p-2 p-lg-5">
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-lg-6 text-center text-lg-start fs-5">
                     <h2 class="display-2">Napló</h2>
                     <p>A Napló menüben találsz egy multifunkcionális eszközt, amellyel…</p>
@@ -180,7 +180,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center align-items-center p-5">
-                    <img class="img-fluid" src="{{asset('/img/about/naplo.png')}}" alt="programok">
+                    <img class="read-more-img" src="{{asset('/img/about/naplo.png')}}" alt="programok">
                 </div>
             </div>
 
@@ -188,9 +188,9 @@
     </section>
     <section class="">
         <div class="container p-2 p-lg-5">
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-lg-6 d-flex justify-content-center align-items-center p-5 text-center">
-                    <img class="img-fluid" src="{{asset('/img/about/teszt.png')}}" alt="Teszt">
+                    <img class="read-more-img" src="{{asset('/img/about/teszt.png')}}" alt="Teszt">
                 </div>
                 <div class="col-lg-6  p-lg-5 text-center text-lg-start fs-5">
                     <h2 class="display-2">Teszt</h2>
@@ -202,7 +202,7 @@
     </section>
     <section class="bg-dark">
         <div class="container p-2 p-lg-5">
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-lg-6 p-2 p-lg-5 text-center text-lg-start fs-5">
                     <h2 class="display-2">Csoport</h2>
                     <p>A Csoport menüponton keresztül csatlakozhatsz a zárt Optima Csoporthoz, amelyben nemcsak más Optimásokkal tarthatod a kapcsolatot, hanem Velem is.</p>
@@ -210,7 +210,7 @@
                     <p>Ezenkívül van még Optima Extra bejelentkezés is és kérdezz-felelek is!</p>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center align-items-center p-5">
-                    <img class="img-fluid" src="{{asset('/img/about/csoport.png')}}" alt="csoport">
+                    <img class="read-more-img" src="{{asset('/img/about/csoport.png')}}" alt="csoport">
                 </div>
             </div>
 
@@ -218,9 +218,9 @@
     </section>
     <section class="">
         <div class="container p-2 p-lg-5">
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-lg-6 d-flex justify-content-center align-items-center p-5 text-center">
-                    <img class="img-fluid" src="{{asset('/img/about/bonuszok.png')}}" alt="Bonuszok">
+                    <img class="read-more-img" src="{{asset('/img/about/bonuszok.png')}}" alt="Bonuszok">
                 </div>
                 <div class="col-lg-6  p-2 p-lg-5 text-center text-lg-start fs-5">
                     <h2 class="display-2">Bónuszok</h2>
@@ -237,7 +237,7 @@
     </section>
     <section class="bg-dark">
         <div class="container p-2 p-lg-5">
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-lg-6 p-2 p-lg-5 text-center text-lg-start fs-5">
                     <h2 class="display-2">Hozzátartozóknak</h2>
                     <p>A Hozzátartozóknak menüpontban
@@ -248,7 +248,7 @@
                         szerettednek!</p>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center align-items-center p-5">
-                    <img class="img-fluid" src="{{asset('/img/about/hozzatartozoknak.png')}}" alt="Hozzátartozóknak">
+                    <img class="read-more-img" src="{{asset('/img/about/hozzatartozoknak.png')}}" alt="Hozzátartozóknak">
                 </div>
             </div>
 
@@ -256,9 +256,9 @@
     </section>
     <section class="">
         <div class="container p-2 p-lg-5">
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-lg-6 d-flex justify-content-center align-items-center p-5 text-center">
-                    <img class="img-fluid" src="{{asset('/img/about/blog.png')}}" alt="Blog">
+                    <img class="read-more-img" src="{{asset('/img/about/blog.png')}}" alt="Blog">
                 </div>
                 <div class="col-lg-6  p-2 p-lg-5 text-center text-lg-start fs-5">
                     <h2 class="display-2">Blog</h2>

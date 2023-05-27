@@ -222,7 +222,7 @@ button{
 
 .btn-continue-x{
     @extend %btn-program;
-    color: $light;
+    color: rgb(108,108,108);
     &:before{
         background: white;
         width:  var(--after-bg-0);

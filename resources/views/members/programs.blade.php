@@ -18,7 +18,7 @@
                             </div>
                             <div class="p-2">
                                 <p class="p-2 lead">Akkor, ha a Fejlődési Zónában vagy…</p>
-                                <a class="btn-program btn-continue-x" href="/program" data-progress="100"><i class="fa-solid fa-rotate-right me-3"></i>Újrakezdemt</a>
+                                <a class="btn-program btn-continue" href="/program" data-progress="10"><i class="fa-solid fa-rotate-right me-3"></i>Újrakezdemt</a>
 
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                             </div>
                             <div class="p-2">
                                 <p class="p-2 lead">Akkor, ha a Fejlődési Zónában vagy…</p>
-                                <a class="btn-program btn-continue-f" href="/program" data-progress="68"><i class="fa-solid fa-play me-3"></i>Folytatom</a>
+                                <a class="btn-program btn-continue" href="/program" data-progress="68"><i class="fa-solid fa-play me-3"></i>Folytatom</a>
                             </div>
 
                         </div>
@@ -46,7 +46,7 @@
                             </div>
                             <div class="p-2">
                                 <p class="p-2 lead">Akkor, ha a Fejlődési Zónában vagy…</p>
-                                <a class="btn-program btn-continue-o" href="/program" data-progress="0"><i class="fa-solid fa-flag-checkered me-3"></i>Elkezdem a programot</a>
+                                <a class="btn-program btn-continue" href="/program" data-progress="0"><i class="fa-solid fa-flag-checkered me-3"></i>Elkezdem a programot</a>
                             </div>
 
                         </div>
@@ -60,7 +60,7 @@
                             </div>
                             <div class="p-2">
                                 <p class="p-2 lead">Akkor, ha a Fejlődési Zónában vagy…</p>
-                                <a class="btn-program btn-continue-v" href="/program" data-progress="0"><i class="fa-solid fa-flag-checkered me-3"></i>Elkezdem a programot</a>
+                                <a class="btn-program btn-continue" href="/program" data-progress="0"><i class="fa-solid fa-flag-checkered me-3"></i>Elkezdem a programot</a>
                             </div>
 
                         </div>

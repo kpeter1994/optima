@@ -460,3 +460,14 @@ footer {
     align-items: center;
     border-radius: 50%;
 }
+
+/*Tudj meg többet*/
+
+.read-more-img{
+    width: 175px;
+    height: 175px;
+    @include lg{
+        width: 60%;
+        height: auto;
+    }
+}
