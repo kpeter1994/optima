@@ -12343,4 +12343,8 @@ footer svg {
   }
 }
 
+.testimonial-video-container {
+  max-width: 800px;
+}
+
 /*# sourceMappingURL=main.css.map */

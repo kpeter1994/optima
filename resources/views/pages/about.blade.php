@@ -14,6 +14,10 @@
                 <p class="text-lg text-lg lead"><span class="fw-bold fs-4 d-block">Ha Te akarod megmondani,  hogyan mondasz igent  a Jó(zanság)ra!</span>
                     <br> Az Optima Online egy praktikus tudás- és eszköztár, amelyet Dénes útmutatásával használhatsz…</p>
                 <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Tudj meg többet Dénesről</button>
+                <div class="mt-3 video-responsive w-100">
+                    <iframe src="https://player.vimeo.com/video/815550187?h=72d5d82f25"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <p> Egy Optimás vallomása....</p>
+                </div>
             </div>
         </div>
         <div class="modal fade modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
