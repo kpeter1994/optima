@@ -12165,7 +12165,7 @@ header .nav-link {
   font-size: 14px;
   text-align: start;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: end;
   padding: 1rem;
   z-index: 150;
